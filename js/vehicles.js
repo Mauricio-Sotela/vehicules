@@ -42,7 +42,7 @@ let vehiclesType = [
     year: 2018,
     img: "./images/Koenigsegg2018.jpg",
     desc:
-      "Power output from the 5 litre twin-turbo V8 ranges from 1160bhp to a monstorous 1360bhp with the optional 1MW pack. The later recently setting new world records for top speed (278 mph official average, with a 285mph peak) and 0-400kmh-0 (33.3 sec), both on the road legal, standard fit Michelin Pilot Sport Cup 2 tyres!",
+      "Power output from the 5 litre twin-turbo V8 ranges from 1160bhp to a monstorous 1360bhp with the optional 1MW pack. The later recently setting new world records for top speed (278 mph official average, with a 285mph peak) and 0-400kmh-0 (33.3 sec).",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ let vehiclesType = [
     year: 2015,
     img: "./images/Koenigsegg-One.jpg",
     desc:
-      "Hailed by founder Christian Von Koenigsegg as the world's first `Megacar` the One:1 produces a colossal 1341bhp (or 1 Megawatt) from it's twin turbo V8. In a car weighing just 1340Kg, the One:1 breaks the seemingly unreachable barrier of 1000bhp/ton. No wonder then that the Swedish hypercar is breaking records for fun. ",
+      "Hailed by founder Christian Von Koenigsegg as the world's first `Megacar` the One:1 produces a colossal 1341bhp (or 1 Megawatt) from it's twin turbo V8.",
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ let vehiclesType = [
     year: 2012,
     img: "./images/9FF.jpg",
     desc:
-      "Porsches 997 provides the starting point for the Vmax. The engine is then replaced by the unit from a GT3 RSR racecar, mid mounted and enlarged to 4.2 litres, then twin turbocharged to a phenomenal 1381bhp and 856 lbft of torque. A widened lightweight carbon fibre body and integral roll cage are fitted, but 9FF will trim the interior to whatever suits your taste.",
+      "Porsches 997 provides the starting point for the Vmax. The engine is then replaced by the unit from a GT3 RSR racecar, mid mounted and enlarged to 4.2 litres, then twin turbocharged to a phenomenal 1381bhp and 856 lbft of torque.",
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ let vehiclesType = [
     year: 2017,
     img: "./images/Hennessey-Venom.jpg",
     desc:
-      "The Hennessey Venom GT is now (unofficially) the worlds fastest production car, with a stunning top speed of 270mph. The official 268mph record remains with Bugatti, but it is surely only a matter of time before the Venom completes a 2-way run to seal the deal.",
+      "The Hennessey Venom GT is now (unofficially) the worlds fastest production car, with a stunning top speed of 270mph. The official 268mph record remains with Bugatti.",
   },
   {
     id: 9,
@@ -78,7 +78,7 @@ let vehiclesType = [
     year: 2011,
     img: "./images/Bugatti-Veyron.jpg",
     desc:
-      "Still the official holder of the title of world's fastest production car at a colossal 268mph (despite the unofficial 270mph one-way run of Hennessey's Venom GT). Standard Veyron W16 boosted to almost 1200bhp to give earth shattering acceleration - including a dragster-like standing quarter in just 9 seconds.",
+      "Still the official holder of the title of world's fastest production car at a colossal 268mph (despite the unofficial 270mph one-way run of Hennessey's Venom GT).",
   },
   {
     id: 10,
