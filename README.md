@@ -6,10 +6,10 @@
 
 #### Supercars
 
-<img  src='./images/spercarshot.png ' width='70%'>
+<img  src='./images/spercarshot.png ' >
 
 <br>
 
 #### Motorcycles
 
-<img src='./images/moto/motos.png ' width='70%' >
+<img src='./images/moto/motos.png ' >
