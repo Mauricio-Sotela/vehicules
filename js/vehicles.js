@@ -103,7 +103,7 @@ let vehiclesType = [
     name: "Honda XRV750 Africa",
     category: "motorcicles",
     year: 1995,
-    img: "../images/moto/Honda-XRV750-95-1024x765.jpg",
+    img: "./images/moto/Honda-XRV750-95-1024x765.jpg",
     desc:
       "Make Model: Honda XRV 750 Africa Twin Year: 1995 Engine: Four stroke, Longitudinal 52 degreesV-twin. SOHC, 3 Valve per cylinder Capacity: 742 cc / 45.2 cu-in Bore x Stroke: 81",
   },
@@ -112,7 +112,7 @@ let vehiclesType = [
     name: "Honda XR 650R",
     category: "motorcicles",
     year: 2013,
-    img: "../images/moto/Honda-XR650R.jpg",
+    img: "./images/moto/Honda-XR650R.jpg",
     desc:
       "Make Model: Honda XR 650R Year: 2002 – 03 Engine: Four stroke, single cylinder SOHC, 4 valve Capacity: 644 cc / 39.6 cu-in Bore x Stroke: 100 x 82.6 mm",
   },
@@ -121,7 +121,7 @@ let vehiclesType = [
     name: "Yamaha World Crosser concept",
     category: "motorcicles",
     year: 2013,
-    img: "../images/moto/Yamaha-Super-Tenere-World-Crosser-13.jpg",
+    img: "./images/moto/Yamaha-Super-Tenere-World-Crosser-13.jpg",
     desc:
       "Make Model: Yamaha XT 1200Z Super T~A(c)n~A(c)r~A(c) )Worldcrosser Year: 2013 Engine: Four-stroke, parallel twin, DOHC, 4-valve, Capacity: 1199 cc / 73.2 cub in. Bore x Stroke: 98 x 79.5 mm",
   },
@@ -130,7 +130,7 @@ let vehiclesType = [
     name: "Yamaha FaZer 8 ",
     category: "motorcicles",
     year: 2012,
-    img: "../images/moto/Yamaha-Fazer-8-12-3-1360x765.jpg",
+    img: "./images/moto/Yamaha-Fazer-8-12-3-1360x765.jpg",
     desc:
       "Make Model: Yamaha FZ-8 Fazer Year: 2012 Engine: Four stroke, forward-inclined transverse four cylinder, DOHC, 4 valve per cylinder Capacity: 779 cc / 48.6 cu-in Bore x Stroke: 68.0~A53.6mm ",
   },
@@ -139,7 +139,7 @@ let vehiclesType = [
     name: "Yamaha TT 600",
     category: "motorcicles",
     year: 1991,
-    img: "../images/moto/Yamaha-TT600-85.jpg",
+    img: "./images/moto/Yamaha-TT600-85.jpg",
     desc:
       "Make Model: Yamaha TT 600 Year: 1991 – 92 Engine: Four stroke, single cylinder, SOHC, 4 Valve Capacity: 595 cc / 36.5 cu-in Bore x Stroke: 95 x 84 mm",
   },
@@ -148,7 +148,7 @@ let vehiclesType = [
     name: "Suzuki GSX-R 1000",
     category: "motorcicles",
     year: 2013,
-    img: "../images/moto/Suzuki-GSXR1000-13-1-1360x765.jpg",
+    img: "./images/moto/Suzuki-GSXR1000-13-1-1360x765.jpg",
     desc:
       "Make Model: Suzuki GSX-R 1000 Year: 2013 Engine: Four stroke, transverse four cylinder, DOHC, 4 valves per cylinder, TSCC Capacity: 998.6 cc / 60.9 cub. in Bore x Stroke: 74.5",
   },
@@ -157,7 +157,7 @@ let vehiclesType = [
     name: "Suzuki DR 370",
     category: "motorcicles",
     year: 1977,
-    img: "../images/moto/Suzuki_DR370.jpg",
+    img: "./images/moto/Suzuki_DR370.jpg",
     desc:
       "Make Model: Suzuki SP 370 Year: 1977 – 79 Engine: Four stroke, single cylinder, SOHC Capacity: 369 cc / 22.5 cu in Bore x Stroke: 85 x 65.2 mm Compression",
   },
@@ -166,7 +166,7 @@ let vehiclesType = [
     name: "Ducati 175 Formula 3",
     category: "motorcicles",
     year: 1959,
-    img: "../images/moto/ducati_175_formula3_59_01.jpg",
+    img: "./images/moto/ducati_175_formula3_59_01.jpg",
     desc:
       "Make Model: Ducati 175 Formula 3 Year: 1959 – 62 Engine: Four stroke, single cylinder, SOHC, shaft and bevel gear driven, 2 valves per cylinder Capacity: 174.5 cc / 10.6",
   },
@@ -175,7 +175,7 @@ let vehiclesType = [
     name: "Gas Gas EC 300",
     category: "motorcicles",
     year: 2009,
-    img: "../images/moto/Gas-Gas-EC-300-Nambotin-11.jpg",
+    img: "./images/moto/Gas-Gas-EC-300-Nambotin-11.jpg",
     desc:
       "Make Model: Gas Gas EC 300 Nambotin Replica Year: 2009 Engine: Two stroke, single cylinder Capacity: 294 cc / 17.9 cu-in Bore x Stroke: 72 x 72 mm Cooling System",
   },
