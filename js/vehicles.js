@@ -94,7 +94,7 @@ let vehiclesType = [
     name: "ATK 450 Enduro",
     category: "motorcicles",
     year: 2011,
-    img: "../images/moto/atk-450.jpg",
+    img: "./images/moto/atk-450.jpg",
     desc:
       "Motor-wise, the American machine makes plenty of noise with its whiny fuel injection and wide-ratio, cassette-style 5-speed transmission.",
   },
@@ -175,7 +175,7 @@ let vehiclesType = [
     name: "Gas Gas EC 300",
     category: "motorcicles",
     year: 2009,
-    img: "./images/moto/Gas-Gas-EC-300-Nambotin-11.jpg",
+    img: "../images/moto/Gas-Gas-EC-300-Nambotin-11.jpg",
     desc:
       "Make Model: Gas Gas EC 300 Nambotin Replica Year: 2009 Engine: Two stroke, single cylinder Capacity: 294 cc / 17.9 cu-in Bore x Stroke: 72 x 72 mm Cooling System",
   },
