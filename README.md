@@ -1,6 +1,15 @@
-# vehicules
+# VEHICLES GALLERY VANILLA JS
 
 ### GALLERY OF DIFFERENT VEHICLES
 
-<img src='./images/spercarshot.png'>
-<img src='./images/moto/motos.png'>
+<br>
+
+#### Supercars
+
+<img  src='./images/spercarshot.png ' width='70%'>
+
+<br>
+
+#### Motorcycles
+
+<img src='./images/moto/motos.png ' width='70%' >
