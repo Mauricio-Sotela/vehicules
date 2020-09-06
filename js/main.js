@@ -1,39 +1,39 @@
-import {vehicle} from './vehicles.js'
+// import module
+import { vehicle } from "./vehicles.js";
 
 // get parent element
 const sectionCenter = document.querySelector(".section-center");
 const btnContainer = document.querySelector(".btn-container");
+
 // display all items when page loads
-window.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("DOMContentLoaded", () => {
   diplayvehicleItems(vehicle);
   displayvehicleButtons();
 });
 
 function diplayvehicleItems(vehicleItems) {
-  let displayvehicle = vehicleItems.map(function (item) {
-    // console.log(item);
-
-    return `<article class="vehicle-item">
-          <img src=${item.img} alt=${item.name} class="photo" />
-          <div class="item-info">
-            <header>
-              <h4>${item.name}</h4>
-              <h4 class="year">${item.year}</h4>
-            </header>
-            <p class="item-text">
-              ${item.desc}
-            </p>
-          </div>
-        </article>`;
+  let displayvehicle = vehicleItems.map((item) => {
+    return `<div id=${item.id} class="vehicle-item">
+                <a href=${item.img} target='blank'>
+                  <img src=${item.img} alt=${item.name} class="photo" />
+                </a>
+                <div class="item-info">
+                  <header>
+                    <h4>${item.name}</h4>
+                    <h4 class="year">${item.year}</h4>
+                  </header>
+                  <p class="item-text">
+                    ${item.desc}
+                  </p>
+                </div>
+            </div>`;
   });
   displayvehicle = displayvehicle.join("");
-  // console.log(displayvehicle);
-
   sectionCenter.innerHTML = displayvehicle;
 }
 function displayvehicleButtons() {
   const categories = vehicle.reduce(
-    function (values, item) {
+    (values, item) => {
       if (!values.includes(item.category)) {
         values.push(item.category);
       }
@@ -42,7 +42,7 @@ function displayvehicleButtons() {
     ["all"]
   );
   const categoryBtns = categories
-    .map(function (category) {
+    .map((category) => {
       return `<button type="button" class="filter-btn" data-id=${category}>
           ${category}
         </button>`;
@@ -51,14 +51,11 @@ function displayvehicleButtons() {
 
   btnContainer.innerHTML = categoryBtns;
   const filterBtns = btnContainer.querySelectorAll(".filter-btn");
- 
 
-  filterBtns.forEach(function (btn) {
-    btn.addEventListener("click", function (e) {
-      // console.log(e.currentTarget.dataset);
+  filterBtns.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
       const category = e.currentTarget.dataset.id;
-      const vehicleCategory = vehicle.filter(function (vehicleItem) {
-        // console.log(vehicleItem.category);
+      const vehicleCategory = vehicle.filter((vehicleItem) => {
         if (vehicleItem.category === category) {
           return vehicleItem;
         }
