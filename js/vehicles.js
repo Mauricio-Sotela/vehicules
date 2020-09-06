@@ -94,7 +94,7 @@ let vehiclesType = [
     name: "ATK 450 Enduro",
     category: "motorcicles",
     year: 2011,
-    img: "./images/Bugatti-Veyron.jpg",
+    img: "./images/moto/atk-450.jpg",
     desc:
       "Motor-wise, the American machine makes plenty of noise with its whiny fuel injection and wide-ratio, cassette-style 5-speed transmission.",
   },
