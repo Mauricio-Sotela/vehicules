@@ -30,6 +30,12 @@ function diplayvehicleItems(vehicleItems) {
   });
   displayvehicle = displayvehicle.join("");
   sectionCenter.innerHTML = displayvehicle;
+  const gone = document.querySelectorAll(".vehicle-item");
+  gone.forEach((item) => {
+    item.addEventListener("click", (e) => {
+      del(e);
+    });
+  });
 }
 function displayvehicleButtons() {
   const categories = vehicle.reduce(
@@ -68,3 +74,7 @@ function displayvehicleButtons() {
     });
   });
 }
+
+// function del(e) {
+//   e.currentTarget.remove();
+// }
