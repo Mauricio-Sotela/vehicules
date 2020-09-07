@@ -87,7 +87,7 @@ let vehiclesType = [
     name: "CJ Jeep History",
     category: "trucks",
     year: 1986,
-    img: "../images/trucks/jeep-cj5-renegade-image.jpg",
+    img: "./images/trucks/jeep-cj5-renegade-image.jpg",
     desc:
       "By the late sixties, consumer interest in off-road activities had grown in leaps and bounds, with the Kaiser-Willys Jeep leading the way. Four-wheel drive vehicles were more popular than ever.",
   },
