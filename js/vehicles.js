@@ -1,5 +1,14 @@
 let vehiclesType = [
   {
+    id: 20,
+    name: "Chevy El Camino",
+    category: "trucks",
+    year: 1959,
+    img: "./images/trucks//1959-el-camino-left-rear.jpg",
+    desc:
+      "Longer, lower, wider, all-new sheet metal, wrap-around windshield, batwing rear fenders and cat's eye tail-lamps - full-size Chevys for 1959 were completely redesigned.",
+  },
+  {
     id: 1,
     name: "Bugatti Chiron",
     category: "supercars",
@@ -16,6 +25,15 @@ let vehiclesType = [
     img: "./images/moto/Honda-XRV750-95-1024x765.jpg",
     desc:
       "Make Model: Honda XRV 750 Africa Twin Year: 1995 Engine: Four stroke, Longitudinal 52 degreesV-twin. SOHC, 3 Valve per cylinder Capacity: 742 cc / 45.2 cu-in Bore x Stroke: 81",
+  },
+  {
+    id: 22,
+    name: "Dodge Power Wagon",
+    category: "trucks",
+    year: 1951,
+    img: "./images/trucks/1951-dodge-power-wagon-left-2.jpg",
+    desc:
+      "Designed for off-highway operations, the Dodge Power Wagon was one of the first mass-produced 4x4 civilian trucks. A rugged chassis allows passage through water, sand, and mud.",
   },
 
   {
@@ -35,6 +53,15 @@ let vehiclesType = [
     img: "./images/moto/Yamaha-Super-Tenere-World-Crosser-13.jpg",
     desc:
       "Make Model: Yamaha XT 1200Z Super T~A(c)n~A(c)r~A(c) )Worldcrosser Year: 2013 Engine: Four-stroke, parallel twin, DOHC, 4-valve, Capacity: 1199 cc / 73.2 cub in. Bore x Stroke: 98 x 79.5 mm",
+  },
+  {
+    id: 23,
+    name: "Chevy Cameo Carrier",
+    category: "trucks",
+    year: 1957,
+    img: "./images/trucks/1957-chevy-cameo-carrier-right.jpg",
+    desc:
+      "Boasting V-8 power, automatic transmission, two-tone paint, and deluxe interior, the 1955 Chevrolet Cameo shortened the distance between car and truck.",
   },
 
   {
@@ -56,6 +83,15 @@ let vehiclesType = [
       "Make Model: Yamaha TT 600 Year: 1991 – 92 Engine: Four stroke, single cylinder, SOHC, 4 Valve Capacity: 595 cc / 36.5 cu-in Bore x Stroke: 95 x 84 mm",
   },
   {
+    id: 24,
+    name: "CJ Jeep History",
+    category: "trucks",
+    year: 1986,
+    img: "../images/trucks/jeep-cj5-renegade-image.jpg",
+    desc:
+      "By the late sixties, consumer interest in off-road activities had grown in leaps and bounds, with the Kaiser-Willys Jeep leading the way. Four-wheel drive vehicles were more popular than ever.",
+  },
+  {
     id: 7,
     name: "9FF GT9 Vmax",
     category: "supercars",
@@ -72,6 +108,15 @@ let vehiclesType = [
     img: "./images/moto/Suzuki_DR370.jpg",
     desc:
       "Make Model: Suzuki SP 370 Year: 1977 – 79 Engine: Four stroke, single cylinder, SOHC Capacity: 369 cc / 22.5 cu in Bore x Stroke: 85 x 65.2 mm Compression",
+  },
+  {
+    id: 25,
+    name: "Willys Jeep ",
+    category: "trucks",
+    year: 1945,
+    img: "./images/trucks/1945-willys-overland-jeep-cj-2a.jpg",
+    desc:
+      "Prior to World-War Two, Willys-Overland (pronounced 'Willis Overland') Motors was one of many struggling independent car companies. Their fortune changed after winning the bid to manufacture Jeeps for the U.S. Military, producing over 650,000 from 1941 to 1945.",
   },
   {
     id: 9,
@@ -92,6 +137,15 @@ let vehiclesType = [
       "Make Model: Gas Gas EC 300 Nambotin Replica Year: 2009 Engine: Two stroke, single cylinder Capacity: 294 cc / 17.9 cu-in Bore x Stroke: 72 x 72 mm Cooling System",
   },
   {
+    id: 26,
+    name: "Ford Econoline Pickup",
+    category: "trucks",
+    year: 1961,
+    img: "./images/trucks/econoline-pickup-side.jpg",
+    desc:
+      "Shorter, lighter, and easier to maneuver, the Ford Econoline pickup was also less expensive than a conventional pickup.",
+  },
+  {
     id: 11,
     name: "ATK 450 Enduro",
     category: "motorcicles",
@@ -109,7 +163,15 @@ let vehiclesType = [
     desc:
       "The F5 is the first fully in-house supercar produced by Hennessey and is named after the highest tornado speed rating. The 6.6 litre twin-turbo 'Fury' V8 kicks out a massive 1817hp at a screaming 8000rpm.",
   },
-
+  {
+    id: 27,
+    name: "Ford F100",
+    category: "trucks",
+    year: 1953,
+    img: "./images/trucks/1953-ford-f100-pickup-left.jpg",
+    desc:
+      "Starting in 1953, F-series trucks added '00' to the designations, thus the F-1 became the F-100. Engine choices were the same as last years: buyers could choose either the OHV 215ci six-cylinder or the 239ci flathead V-8. Eight-cylinder trucks were adorned with a chrome V-8 emblem in the center of the grille, while six-cylinder trucks had a chrome three-pointed star.",
+  },
   {
     id: 13,
     name: "Honda XR 650R",
@@ -128,7 +190,15 @@ let vehiclesType = [
     desc:
       "Powered by a 5.9 litre twin turbo V8, the Tuatara produces up to 1750hp (on E85 flex fuel) and over 1000 lbft of torque. An extraordinary 1400 bhp/ton power to weight ratio catapults the hypercar to 60mph in just 2.5 seconds.",
   },
-
+  {
+    id: 28,
+    name: "WW2 Jeep ",
+    category: "trucks",
+    year: 1943,
+    img: "./images/trucks/1943-willys-jeep.jpg",
+    desc:
+      "The Second World War was a major event that defined global history. More than a 300 million soldiers worldwide took part in the hostilities, and estimates show between 60 to 80 million soldiers and civilians lost their lives.",
+  },
   {
     id: 15,
     name: "Yamaha FaZer 8 ",
@@ -147,7 +217,15 @@ let vehiclesType = [
     desc:
       "Hailed by founder Christian Von Koenigsegg as the world's first `Megacar` the One:1 produces a colossal 1341bhp (or 1 Megawatt) from it's twin turbo V8.",
   },
-
+  {
+    id: 29,
+    name: "Chevrolet Corvair",
+    category: "trucks",
+    year: 1962,
+    img: "./images/trucks/1962-corvair-truck-1.jpg",
+    desc:
+      "With the 1962 Chevrolet Corvair Truck -- and with the other truck versions of its rear-engine, air-cooled Corvair compact car -- it's no doubt what Chevrolet was aiming at: the Volkswagen's Beetle-based bus.",
+  },
   {
     id: 17,
     name: "Suzuki GSX-R 1000",
@@ -166,7 +244,15 @@ let vehiclesType = [
     desc:
       "The Hennessey Venom GT is now (unofficially) the worlds fastest production car, with a stunning top speed of 270mph. The official 268mph record remains with Bugatti.",
   },
-
+  {
+    id: 30,
+    name: "Ford Ranchero and Courier",
+    category: "trucks",
+    year:1957,
+    img: "./images/trucks/1957-1958-ford-ranchero-and-courier-1.jpg",
+    desc:
+      "The 1957 Ford Ranchero and Courier were pioneering sedan-pickup designs that sent the other major automakers scrambling to catch up.",
+  },
   {
     id: 19,
     name: "Ducati 175 Formula 3",
