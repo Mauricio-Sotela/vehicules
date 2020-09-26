@@ -264,7 +264,7 @@ let vehiclesType = [
   },
   {
     id: 10,
-    name: "Koenigsegg Agera R",
+    name: "Koenigsegg Agera ",
     category: "supercars",
     year: 2014,
     img: "./images/Koenigsegg-Agera-R.jpg",
